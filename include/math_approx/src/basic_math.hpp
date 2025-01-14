@@ -13,6 +13,7 @@
 
 #include <algorithm>
 #include <bit>
+#include <cstring>
 
 namespace math_approx
 {
