@@ -18,7 +18,9 @@
 #pragma warning(pop)
 #endif
 #endif
-
+#if ! __cpp_lib_bit_cast
+#include <cstring>
+#endif
 #if ! defined(XSIMD_HPP)
 #include <cmath>
 #endif
